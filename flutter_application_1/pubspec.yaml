@@ -1,0 +1,35 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/barberman.jpg
+    - assets/images/alana_barbershop.jpg
+    - assets/images/barberking_barbershop.jpg
+    - assets/images/blumers.jpg
+    - assets/images/booking_banner.jpg
+    - assets/images/hertha_barbershop.jpg
+    - assets/images/paulies.jpg
+    - assets/images/twinsky_barber.jpg
+    - assets/images/varcity_barber.jpg
+    - assets/images/profile.jpg
+    - assets/images/masterpiece_barber.jpg
+
